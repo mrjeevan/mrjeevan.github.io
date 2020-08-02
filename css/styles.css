@@ -40,7 +40,7 @@
     border-color: transparent;
     border-radius: 20px;
     
-    box-shadow: 5px 5px 8px silver;
+    box-shadow: 5px 5px 5px 5px  silver;
 }
 
 .per-border2
@@ -48,7 +48,7 @@
     border-color: transparent;
     border-radius: 20px;
     
-    box-shadow: -5px -5px 8px silver;
+    box-shadow: -5px -5px 5px 5px silver;
 }
 
 img-thumbnail
@@ -64,7 +64,16 @@ img-thumbnail
     background-size: cover;
 }
 
-/* body
+body
 {
-  background-image: url("/req/blueflower.jpg");
-} */
+  background-image: url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg');
+  background-attachment: fixed;
+}
+
+/* https://surfacesusa.com/wp-content/uploads/2014/05/mos319_thassoswhite_1in_hex_p.jpg */
+/* https://www.fg-a.com/wallpapers/white-wave-pattern.jpg */
+
+a
+{
+  color : rebeccapurple
+}

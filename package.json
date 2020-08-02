@@ -1,0 +1,19 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrjeevan/mrjeevan.github.io.git"
+  },
+  "author": "M R Jeevan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrjeevan/mrjeevan.github.io/issues"
+  },
+  "homepage": "https://github.com/mrjeevan/mrjeevan.github.io#readme"
+}

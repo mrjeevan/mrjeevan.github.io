@@ -1,0 +1,70 @@
+.grad {
+    
+    background: linear-gradient(to right, #ce3cbd,#396eb3, #89fffd, #34d86b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 50px;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-size: 400%;
+    animation: gradient 5s linear infinite alternate;
+    font-family: 'MuseoModerno';
+
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: lighter;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0%;
+    }
+    50%{
+        background-position: 50%;
+    }
+    100% {
+      background-position: 100%;
+    }
+  }
+
+  .jumbotron
+  {
+    background-image: url('req/jumbotron-004-.jpg'), 
+    url('https://www.pixel4k.com/wp-content/uploads/2018/10/abstract-dark-purple-4k_1539371377.jpg'),
+    linear-gradient(to right, #03001e, #7303c0, #ec38bc, #e61bdb);
+    /* background-image: url('resource/dark-background-wallpaper.jpg'); */
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+  .per-border
+  {
+    border-color: transparent;
+    border-radius: 20px;
+    
+    box-shadow: 5px 5px 8px silver;
+}
+
+.per-border2
+  {
+    border-color: transparent;
+    border-radius: 20px;
+    
+    box-shadow: -5px -5px 8px silver;
+}
+
+img-thumbnail
+{
+  width: fit-content;
+  height: fit-content;
+}
+
+.tron
+{
+  background-image: url("/req/jumbotron-004-.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+/* body
+{
+  background-image: url("/req/blueflower.jpg");
+} */

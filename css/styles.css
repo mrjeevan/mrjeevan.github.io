@@ -1,11 +1,11 @@
 .grad {
     
-    background: linear-gradient(to right, #ce3cbd,#396eb3, #89fffd, #34d86b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right,cyan,violet, orange,violet,cyan);
     font-size: 50px;
     -webkit-background-clip: text;
     color: transparent;
     background-size: 400%;
-    animation: gradient 5s linear infinite alternate;
+    animation: gradient 8s linear infinite alternate;
     font-family: 'MuseoModerno';
 
     letter-spacing: 0px;

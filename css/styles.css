@@ -77,3 +77,17 @@ a
 {
   color : rebeccapurple
 }
+
+
+dark{
+  filter:invert(1) hue-rotate(180deg)
+}
+
+.progress-bar
+{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR8nymI1ByrGwIvS6Oa_Xyaym8VRe4_7iF3IeonwXQTSJ-pyL7LRkG7nX97HfI6p6MK8NzE3groML28RYl12XDdd1YLUgbWsD6j2d_I&usqp=CAU&ec=45687380');
+  color: #7303c0;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

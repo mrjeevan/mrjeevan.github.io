@@ -75,11 +75,12 @@ body
 
 a
 {
-  color : rebeccapurple
+  color : rebeccapurple;
 }
 
 
-dark{
+dont-do-this{
+  /* instant DARK mode !! */
   filter:invert(1) hue-rotate(180deg)
 }
 
@@ -91,3 +92,4 @@ dark{
   background-repeat: no-repeat;
   background-size: cover;
 }
+

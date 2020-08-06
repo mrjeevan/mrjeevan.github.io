@@ -25,7 +25,7 @@
     }
   }
 
-  .jumbotron
+  .jumbotron , header
   {
     background-image: url('req/jumbotron-004-.jpg'), 
     url('https://www.pixel4k.com/wp-content/uploads/2018/10/abstract-dark-purple-4k_1539371377.jpg'),
@@ -91,5 +91,15 @@ dont-do-this{
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.heading
+{
+  clip-path: polygon(0% 0%, 100% 0%,100% calc(100% - 6vw), 0% 100% );
+}
+
+.foot
+{
+  clip-path: polygon(0% calc(6vw), 100% 0%,100% calc(100% - 6vw), 0% 100% );
 }
 

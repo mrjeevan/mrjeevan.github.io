@@ -66,10 +66,11 @@ img-thumbnail
 
 body
 {
-  background-image: url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg');
+  background-color: thistle;
+  background-image:url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg') ;
   background-attachment: fixed;
 }
-
+/* url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg') */
 /* https://surfacesusa.com/wp-content/uploads/2014/05/mos319_thassoswhite_1in_hex_p.jpg */
 /* https://www.fg-a.com/wallpapers/white-wave-pattern.jpg */
 
@@ -103,3 +104,15 @@ dont-do-this{
   clip-path: polygon(0% calc(6vw), 100% 0%,100% calc(100% - 6vw), 0% 100% );
 }
 
+.photo{
+  /* clip-path: polygon(0% calc(6vw), 100% 0%,100% calc(100% - 6vw), 0% 100% ); */
+  clip-path: polygon(0% 0%, calc(100%) 5vh,100% calc(100% - 5vh), 0% 100% ); 
+  transition-duration: 500ms;
+  transition-property: clip-path;
+  transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
+
+}
+.photo:hover
+{
+  clip-path: polygon(0% calc(5vh), 100% 0,100% 100%, 0% calc(100% - 5vh) ); 
+}

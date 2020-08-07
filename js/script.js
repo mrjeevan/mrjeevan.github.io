@@ -11,8 +11,11 @@ function dark()
 {
     // alert('Debug : Dark');
     var b = document.getElementsByTagName('body')[0];
+    // test
+    b.style.backgroundColor = 'black';
+    
     b.style.backgroundImage = "url('https://www.teahub.io/photos/full/137-1371882_flatzero-by-articted-data-src-low-poly-wallpaper.jpg')";
-
+    
     b.style.color = 'azure';
     b.style.backgroundAttachment = 'fixed';
     b.style.backgroundSize = 'cover';
@@ -43,6 +46,10 @@ function light()
     // alert('Debug : Light Mode!')
 
     var b = document.getElementsByTagName('body')[0];
+    
+    // test
+    b.style.backgroundColor = 'thistle';
+    
     b.style.backgroundImage = "url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg')";
 
     b.style.color = 'black';

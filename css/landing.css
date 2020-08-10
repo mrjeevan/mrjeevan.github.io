@@ -1,0 +1,189 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* nav bar */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+/* para-descr */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body
+{
+    
+    position: relative;
+    background-image: url("https://wallpapersite.com/images/pages/pic_w/10125.jpg");
+    /* background-image: url('https://i.pinimg.com/originals/c3/12/16/c31216424b811a9770b5b7dacb06fa3e.jpg');  */
+    background-attachment: fixed;
+    background-color: black;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    z-index: 0;
+    background-size: cover;
+}
+
+nav
+{
+    width: max-content;
+    margin: 10px;
+    /* padding: auto; */
+}
+
+nav a{
+    color: snow;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Asul', cursive;
+}
+nav a:hover
+{
+    /* color: lavender; */
+    /* color: blueviolet; */
+    color: rgb(236, 93, 93);
+}
+
+.navbar
+{
+    padding: auto; 
+    width: max-content; /* Dont change the magical value! */
+    z-index: 1;    
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+}
+
+
+
+
+
+
+.heading
+{
+    font-family: 'Lobster', cursive;
+    color: ivory;
+}
+
+p
+{
+    color: rgb(235, 183, 86);
+}
+
+
+
+
+
+.head
+{
+    background: linear-gradient(to right, #000000, #434343);
+    background-image: url('https://selfgrowth.info/photos/free-abstract-gallery/free-abstract-wallpapers-HD6762.jpg'); 
+    padding: 5vw;
+    letter-spacing: 4px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0% ,100% calc(100% - 10vw), 0% 100% );
+}
+
+
+.foot
+{
+    background: linear-gradient(to left, #000000, #434343);
+    background-image: url('https://selfgrowth.info/photos/free-abstract-gallery/free-abstract-wallpapers-HD6762.jpg'); 
+    padding: 5vw;
+    letter-spacing: 4px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    clip-path: polygon(0% calc(10vw), 100% 0% ,100% 100%, 0% 100% );
+}
+
+
+
+
+
+#rrr
+{
+    z-index: 12;
+}
+
+
+
+#overlay 
+{
+    background:rgba(247, 77, 120, 0.1);
+    /* background: rgba(255, 255, 255, 0.2); */
+     /* Make sure this color has an opacity of less than 1 */
+     backdrop-filter: blur(3px);
+      /* This be the blur */
+    color: rgba(130, 130, 130, 0.5);
+    box-shadow: 0 3px 5px rgba(228, 216, 216, 0.3);
+  }
+
+
+  /* Carosel */
+
+  /* Make the stuff fully responsive */
+  .btn
+  {
+    z-index: -1;
+    background-color: transparent;
+  }
+
+  
+  .txt
+  {
+      z-index: -1;
+      width: 100%;
+      height: max-content;
+  }
+
+
+  
+  
+  blockquote p
+  {
+    
+    color: pink;
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .carousel-inner
+  {
+      z-index: -1;
+      margin: auto;
+      width: 70%;
+      text-align: center;
+  }
+
+  #dec
+  {
+      width: 20px;
+  }
+
+  .change
+  {
+      color: teal;
+  }
+
+.change
+{
+    color: silver;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Satisfy', cursive;
+    letter-spacing: 3px;
+}
+
+
+  .imgs
+  {
+      /* transition-property: clip-path; */
+      transition: ease-in-out;
+      transition-duration: 900ms;
+      transition-delay: 30ms;
+  }
+  .imgs:hover
+  {
+    box-shadow: 10px 30px 50px darkorchid;
+  }

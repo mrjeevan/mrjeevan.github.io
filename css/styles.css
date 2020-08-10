@@ -116,3 +116,51 @@ dont-do-this{
 {
   clip-path: polygon(0% calc(5vh), 100% 0,100% 100%, 0% calc(100% - 5vh) ); 
 }
+
+/* nav */
+.active
+{
+  color: aqua;
+}
+
+nav
+{
+    width: max-content;
+    margin: 10px;
+    /* padding: auto; */
+}
+
+nav a{
+    color: purple;
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: 'Asul', cursive;
+}
+nav a:hover
+{
+    /* color: lavender; */
+    /* color: blueviolet; */
+    color: rgb(236, 93, 93);
+}
+
+.navbar
+{
+    padding: auto; 
+    width: max-content; /* Dont change the magical value! */
+    z-index: 1;    
+    transition-duration: 400ms;
+    transition-timing-function: ease-in-out;
+}
+
+#overlay 
+{
+    background:rgba(247, 77, 120, 0.1);
+    /* background: rgba(255, 255, 255, 0.2); */
+     /* Make sure this color has an opacity of less than 1 */
+     backdrop-filter: blur(3px);
+      /* This be the blur */
+    color: rgba(130, 130, 130, 0.5);
+    box-shadow: 0 3px 5px rgba(228, 216, 216, 0.3);
+  }
+
+/* nav */

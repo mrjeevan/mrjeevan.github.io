@@ -9,9 +9,9 @@ function more(){
 
 function dark()
 {
-    // alert('Debug : Dark');
+    
     var b = document.getElementsByTagName('body')[0];
-    // test
+    
     b.style.backgroundColor = 'black';
     
     b.style.backgroundImage = "url('https://www.teahub.io/photos/full/137-1371882_flatzero-by-articted-data-src-low-poly-wallpaper.jpg')";
@@ -20,8 +20,7 @@ function dark()
     b.style.backgroundAttachment = 'fixed';
     b.style.backgroundSize = 'cover';
     
-    
-    // var c = document.getElementsByClassName('pre-border');
+        
     
 
     // invert button part 
@@ -29,6 +28,13 @@ function dark()
     $("#mode").attr("onclick","light();");
     $("#mode").attr("class","mode btn btn-light ");
     $("a").css("color","orange");
+
+    // Nav-Hover-Fix
+    $(".nav-link").hover(function(){
+        $(this).css("color","red");
+    },function(){
+        $(this).css("color","orange");
+    });
 }
 
 
@@ -57,11 +63,20 @@ function light()
     b.style.backgroundSize = 'cover';
 
 
+     
+
     // invert button part 
     $("#mode").html("Dark mode!");
     $("#mode").attr("onclick","dark();");
     $("#mode").attr("class","mode btn btn-dark ");
-    $("a").css("color","rebeccapurple");
+    $("a").css("color","royalblue");
+
+    // Nav-Hover-Fix
+    $(".nav-link").hover(function(){
+        $(this).css("color","red");
+    },function(){
+        $(this).css("color","royalblue");
+    });
 
 
 }
@@ -71,3 +86,15 @@ function light()
 //   background-attachment: fixed;
 //   background-size: cover;
 
+// TESTING //
+function changer()
+{
+
+    
+    $(".nav-link").hover(function(){
+        $(this).css("color","red");
+    },function(){
+        $(this).css("color","blue");
+    });
+    
+}

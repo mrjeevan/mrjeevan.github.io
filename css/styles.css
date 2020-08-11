@@ -1,3 +1,12 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asul&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* nav bar */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
+/* para-descr */
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 .grad {
     
     background: linear-gradient(to right,cyan,violet, orange,violet,cyan);
@@ -74,9 +83,9 @@ body
 /* https://surfacesusa.com/wp-content/uploads/2014/05/mos319_thassoswhite_1in_hex_p.jpg */
 /* https://www.fg-a.com/wallpapers/white-wave-pattern.jpg */
 
-a
+div a
 {
-  color : rebeccapurple;
+  color : royalblue;
 }
 
 
@@ -127,19 +136,16 @@ nav
 {
     width: max-content;
     margin: 10px;
-    /* padding: auto; */
 }
 
 nav a{
-    color: purple;
+    color: royalblue;
     font-weight: bold;
     letter-spacing: 3px;
     font-family: 'Asul', cursive;
 }
 nav a:hover
 {
-    /* color: lavender; */
-    /* color: blueviolet; */
     color: rgb(236, 93, 93);
 }
 
@@ -155,10 +161,7 @@ nav a:hover
 #overlay 
 {
     background:rgba(247, 77, 120, 0.1);
-    /* background: rgba(255, 255, 255, 0.2); */
-     /* Make sure this color has an opacity of less than 1 */
-     backdrop-filter: blur(3px);
-      /* This be the blur */
+    backdrop-filter: blur(3px);
     color: rgba(130, 130, 130, 0.5);
     box-shadow: 0 3px 5px rgba(228, 216, 216, 0.3);
   }

@@ -30,7 +30,7 @@ nav
 }
 
 nav a{
-    color: snow;
+    color: royalblue;
     font-weight: bold;
     letter-spacing: 3px;
     font-family: 'Asul', cursive;
@@ -80,7 +80,7 @@ p
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    clip-path: polygon(0% 0%, 100% 0% ,100% calc(100% - 10vw), 0% 100% );
+    clip-path: polygon(0% 0%, calc(100% - 130px) 0% ,calc(100% - 130px) calc(100% - 10vw), 0% 100% );
 }
 
 

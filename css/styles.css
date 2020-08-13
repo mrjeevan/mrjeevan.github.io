@@ -36,10 +36,10 @@
 
   .jumbotron , header
   {
-    background-image: url('req/jumbotron-004-.jpg'), 
+    background-image: url('../resource/jumbotron.jpg'), 
     url('https://www.pixel4k.com/wp-content/uploads/2018/10/abstract-dark-purple-4k_1539371377.jpg'),
     linear-gradient(to right, #03001e, #7303c0, #ec38bc, #e61bdb);
-    /* background-image: url('resource/dark-background-wallpaper.jpg'); */
+    /* background-image: url('../resource/dark-background-wallpaper.jpg'); */
     background-attachment: fixed;
     background-size: cover;
   }
@@ -76,8 +76,9 @@ img-thumbnail
 body
 {
   background-color: thistle;
-  background-image:url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg') ;
+  background-image:url('../resource/White-Wallpaper-For-Pc.jpg'),url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg') ;
   background-attachment: fixed;
+  background-size: cover;
 }
 /* url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg') */
 /* https://surfacesusa.com/wp-content/uploads/2014/05/mos319_thassoswhite_1in_hex_p.jpg */
@@ -110,6 +111,7 @@ dont-do-this{
 
 .foot
 {
+  margin-top: 13px;
   clip-path: polygon(0% calc(6vw), 100% 0%,100% calc(100% - 6vw), 0% 100% );
 }
 
@@ -167,3 +169,4 @@ nav a:hover
   }
 
 /* nav */
+

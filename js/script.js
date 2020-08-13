@@ -14,7 +14,7 @@ function dark()
     
     b.style.backgroundColor = 'black';
     
-    b.style.backgroundImage = "url('https://www.teahub.io/photos/full/137-1371882_flatzero-by-articted-data-src-low-poly-wallpaper.jpg')";
+    b.style.backgroundImage = "url('resource/dark-background-wallpaper.jpg')";
     
     b.style.color = 'azure';
     b.style.backgroundAttachment = 'fixed';
@@ -56,7 +56,7 @@ function light()
     // test
     b.style.backgroundColor = 'thistle';
     
-    b.style.backgroundImage = "url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg')";
+    b.style.backgroundImage = "url('resource/White-Wallpaper-For-Pc.jpg')";
 
     b.style.color = 'black';
     b.style.backgroundAttachment = 'fixed';
@@ -87,14 +87,3 @@ function light()
 //   background-size: cover;
 
 // TESTING //
-function changer()
-{
-
-    
-    $(".nav-link").hover(function(){
-        $(this).css("color","red");
-    },function(){
-        $(this).css("color","blue");
-    });
-    
-}

@@ -1,0 +1,33 @@
+h4
+{
+    color: white;
+}
+
+body
+{
+    background-color: lightgray;
+    
+    background-image: url('https://hdhintergrundbilder.net/image/abstrakte/36/tropfen-kreise-blau-hell.jpg');
+    background-attachment: fixed;
+}
+
+.card-body
+{
+    
+    background:rgba(35, 35, 37, 0.5);
+    /* background: rgba(255, 255, 255, 0.2); */
+     /* Make sure this color has an opacity of less than 1 */
+     backdrop-filter: blur(3px);
+      /* This be the blur */
+    color: rgba(130, 130, 130, 0.6);
+    box-shadow: 0 3px 5px rgba(228, 216, 216, 0.3);
+}
+.card-body p
+{
+    color: orange;
+}
+
+hr
+{
+    background-color: #ccc;
+}

@@ -100,20 +100,19 @@ p
 
 
 
-#rrr
-{
-    z-index: 12;
+
+
+hr{
+    background-color: orangered;
 }
-
-
 
 #overlay 
 {
     background:rgba(247, 77, 120, 0.1);
-    /* background: rgba(255, 255, 255, 0.2); */
+    
      /* Make sure this color has an opacity of less than 1 */
      backdrop-filter: blur(3px);
-      /* This be the blur */
+      /* This will be the blur */
     color: rgba(130, 130, 130, 0.5);
     box-shadow: 0 3px 5px rgba(228, 216, 216, 0.3);
   }
@@ -169,7 +168,7 @@ p
 .change
 {
     color: silver;
-    font-size: 40px;
+    font-size: 35px;
     font-weight: bold;
     font-family: 'Satisfy', cursive;
     letter-spacing: 3px;

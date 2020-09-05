@@ -53,7 +53,10 @@ nav a:hover
 
 
 
-
+button:focus
+{
+  outline: 0;
+}
 
 
 .heading
@@ -68,7 +71,16 @@ p
 }
 
 
+.btn-hacker
+{
+    text-shadow: none;
+    color: silver ;
+    border: black 2px; 
+    border-radius: 10px;
+    background-image: linear-gradient(to bottom, #424647, #1c1d1f); 
+    padding:10px;
 
+}
 
 
 .head

@@ -7,6 +7,12 @@
 /* para-descr */
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
+
+body
+{
+  transition: 500ms linear;
+}
+
 .grad {
     
     background: linear-gradient(to right,cyan,violet, orange,violet,cyan);
@@ -164,10 +170,25 @@ nav a:hover
 #overlay 
 {
     background:rgba(247, 77, 120, 0.1);
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(5px);
     color: rgba(130, 130, 130, 0.5);
     box-shadow: 0 3px 5px rgba(228, 216, 216, 0.3);
   }
 
-/* nav */
+  .btn-hacker
+  {
+      text-shadow: none;
+      color: silver ;
+      border: black 2px; 
+      border-radius: 10px;
+      background-image: linear-gradient(to bottom, #424647, #1c1d1f); 
+      padding:10px;
+
+  }
+
+button:focus
+{
+  outline: 0;
+}
+  /* nav */
 

@@ -81,8 +81,6 @@ p
     padding:10px;
 
 }
-
-
 .head
 {
     background: linear-gradient(to right, #000000, #434343);
@@ -94,8 +92,6 @@ p
     background-size: cover;
     clip-path: polygon(0% 0%, calc(100% - 130px) 0% ,calc(100% - 130px) calc(100% - 10vw), 0% 100% );
 }
-
-
 .foot
 {
     background: linear-gradient(to left, #000000, #434343);
@@ -107,17 +103,9 @@ p
     background-size: cover;
     clip-path: polygon(0% calc(10vw), 100% 0% ,100% 100%, 0% 100% );
 }
-
-
-
-
-
-
-
 hr{
     background-color: orangered;
 }
-
 #overlay 
 {
     background:rgba(247, 77, 120, 0.1);
@@ -128,11 +116,8 @@ hr{
     color: rgba(130, 130, 130, 0.5);
     box-shadow: 0 3px 5px rgba(228, 216, 216, 0.3);
   }
-
-
-  /* Carosel */
-
-  /* Make the stuff fully responsive */
+/* Carosel */
+/* Make the stuff fully responsive */
   .btn
   {
     z-index: -1;

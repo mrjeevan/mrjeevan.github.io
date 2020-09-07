@@ -3,7 +3,14 @@ function more(){
 }
 
 
+function setCookie(cname, cvalue) {
+   
+    document.cookie = cname + "=" + cvalue + ";" ;
+  }
 
+alert('setting cookie');
+setcookie("mode","dark");
+alert('cookie set');
 
 
 

@@ -10,10 +10,11 @@ function dark()
     b.style.backgroundAttachment = 'fixed';
     b.style.backgroundSize = 'cover';
     // invert button part 
-    $("#mode").html("light mode!");
+    $("#mode").html('<i class="fas fa-sun"></i> light mode!');
     $("#mode").attr("onclick","light();");
     $("#mode").attr("class","mode btn btn-light ");
     $("a").css("color","orange");
+    $(".block").css("background-color","rgba(225, 0, 0, 0.5)");
     // Nav-Hover-Fix
     $(".nav-link").hover(function(){
         $(this).css("color","red");
@@ -43,10 +44,11 @@ function light()
     b.style.backgroundAttachment = 'fixed';
     b.style.backgroundSize = 'cover';
     // invert button part 
-    $("#mode").html("Dark mode!");
+    $("#mode").html('<i class="fas fa-moon"></i> Dark mode!');
     $("#mode").attr("onclick","dark();");
     $("#mode").attr("class","mode btn btn-dark ");
     $("a").css("color","royalblue");
+    $(".block").css("background-color","rgba(5, 2, 200, 0.5)");
     // Nav-Hover-Fix
     $(".nav-link").hover(function(){
         $(this).css("color","red");

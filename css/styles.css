@@ -43,11 +43,11 @@ body
   .jumbotron , header
   {
     background-image: url('../resource/jumbotron.jpg'), 
-    url('https://www.pixel4k.com/wp-content/uploads/2018/10/abstract-dark-purple-4k_1539371377.jpg'),
     linear-gradient(to right, #03001e, #7303c0, #ec38bc, #e61bdb);
     /* background-image: url('../resource/dark-background-wallpaper.jpg'); */
     background-attachment: fixed;
     background-size: cover;
+    
   }
 
   .per-border
@@ -85,16 +85,13 @@ body
   background-image:url('../resource/White-Wallpaper-For-Pc.jpg'),url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg') ;
   background-attachment: fixed;
   background-size: cover;
+  
 }
-/* url('https://www.fg-a.com/wallpapers/white-wave-pattern.jpg') */
-/* https://surfacesusa.com/wp-content/uploads/2014/05/mos319_thassoswhite_1in_hex_p.jpg */
-/* https://www.fg-a.com/wallpapers/white-wave-pattern.jpg */
 
 div a
 {
   color : royalblue;
 }
-
 
 dont-do-this{
   /* instant DARK mode !! */
@@ -122,18 +119,14 @@ dont-do-this{
 }
 
 .photo{
-  /* clip-path: polygon(0% calc(6vw), 100% 0%,100% calc(100% - 6vw), 0% 100% ); */
-  clip-path: polygon(0% 0%, calc(100%) 5vh,100% calc(100% - 5vh), 0% 100% ); 
-  
+  border: transparent;
+  border-radius: 50%;
   transition-duration: 500ms;
   transition-property: clip-path;
   transition-timing-function: cubic-bezier(0.18, 0.89, 0.32, 1.28);
 
 }
-.photo:hover
-{
-  clip-path: polygon(0% calc(5vh), 100% 0,100% 100%, 0% calc(100% - 5vh) ); 
-}
+
 
 /* nav */
 .active
@@ -192,3 +185,16 @@ button:focus
 }
   /* nav */
 
+
+  .bg-image {
+    background-image: url("https://s23527.pcdn.co/wp-content/uploads/2020/01/100k-moon.jpg.optimal.jpg");
+    position: absolute;
+    filter: blur(8px);
+    -webkit-filter: blur(8px);
+    height: 100vh;
+    width: 100vw; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 100;
+  }
